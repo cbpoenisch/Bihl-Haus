@@ -1,0 +1,85 @@
+/*element style*/
+
+html {
+	font-size: 100%
+	display: block;
+}
+
+body {
+	font-family: ;
+	font-size: ;
+	font-weight: ;
+	font-height: ;
+	line-height: ;
+	font-style: ;
+	background-position: top left;
+ 	background-size: auto;
+  	background-attachment: scroll;
+  	background-repeat: repeat;
+  	background-color: #fcfcff;
+  	color: #666;
+  	margin: 0;
+  	display: block;
+}
+
+div {
+	display: block;
+}
+
+header {
+	display: block;
+}
+
+h1 {
+	color: #666;
+
+}
+
+/*class style*/
+
+.site-logo {
+	color: #95BF55;
+	font-weight: 700;
+	font-size: 36px;
+	display: inline-block;
+}
+
+/*id style*/
+
+#canvas {
+	width: auto;
+	max-width: 960px;
+	margin: 0 auto;
+  	padding: 30px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	background-color: #fcfcff;
+}
+
+#header {
+	margin-bottom: 30px;
+}
+
+#header:before, 
+#page:before, 
+#footer:before, 
+footer:before, 
+.clear:before, 
+#header:after, 
+#page:after, 
+#footer:after, 
+footer:after, 
+.clear:after {
+  content: "";
+  display: table;
+}
+
+div #site-logo {
+  width: 100%;
+  text-align: center;
+}
+
+#site-logo, #topNav {
+  float: left;
+}
+
