@@ -2,11 +2,11 @@
 
 html {
 	font-size: 100%
-	display: block;
+	display: block;	
 }
 
 body {
-	font-family: ;
+	font-family: 'Josefin Slab', serif;
 	font-size: ;
 	font-weight: ;
 	font-height: ;
@@ -31,9 +31,24 @@ header {
 }
 
 h1 {
-	color: #666;
+	color: #95BF55;
 
 }
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 300;
+  font-style: normal;
+  color: #BF6955;
+}
+
+
 
 /*class style*/
 
@@ -42,18 +57,31 @@ h1 {
 	font-weight: 700;
 	font-size: 36px;
 	display: inline-block;
+	font-style: none;
+}
+
+.footer {
+	width: 100%;
+ 	float: none;
+  	text-align: center;
+  	color: #95BF55;
+}
+
+.images {
+	margin-left: 62px;
+
 }
 
 /*id style*/
 
 #canvas {
-	width: auto;
-	max-width: 960px;
+	width: 960px;
+	max-width: 100%;
 	margin: 0 auto;
-  	padding: 30px;
- 	position: relative;
- 	box-sizing: border-box;
- 	background-color: #fcfcff;
+	padding: 30px;
+	position: relative;
+	box-sizing: border-box;
+	background-color: rgba(191, 105, 85, 0.16)
 }
 
 #header {
@@ -74,7 +102,7 @@ footer:after,
   display: table;
 }
 
-div #site-logo {
+#site-logo {
   width: 100%;
   text-align: center;
 }
@@ -83,3 +111,30 @@ div #site-logo {
   float: left;
 }
 
+#topNav {
+	position: relative;
+ 	margin: 15px;
+	width: 100%;
+ 	float: left;
+  	text-align: center;
+}
+
+#footer {
+	width: 100%;
+ 	float: none;
+  	text-align: center;
+}
+
+#main-page {
+	margin: 90px 0;
+ 	position: relative;
+ 	display: block;
+}
+
+#nature {
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	margin-left: 145;
+}
+}
