@@ -85,11 +85,8 @@ a {
 
 .gallery-image {
     display: inline-block;
-    float: left;
     height: 150px;
 }
-
-.gallery-images
 
 .page-collection {
 	padding: 5px;
@@ -138,12 +135,12 @@ a {
 	line-height: 2em;
 }
 
-.description {
-	text-align: center;
-    width: 80%;
+/*.description {;
+    width: 90%;
     margin: 0 auto;
+    display: block;
 }
-
+*/
 
 /*id style*/
 
