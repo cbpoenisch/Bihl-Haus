@@ -78,11 +78,13 @@ a {
 	display: inline-block;
 }
 #gallery-image {
-	width: 18%;
-	padding: 3%;
+	width: 23%;
+    height: 32%;
+    padding: 0;
+    margin: .7%;
 }
 #homepage-image {
-	width: 40%;
+	width: 50%;
 	height: 80%
 }
 #exhibitions-image {
