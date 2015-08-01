@@ -72,20 +72,28 @@ a {
   	color: #59584D;
 }
 
+/*Image Style*/
+
 .images {
 	text-align: center;
 	width: 100%;
     height: auto;
 	margin: auto;
+	display: inline-block;
 }
 
+/*Image Container Style*/
+
+.gallery-image-container {
+	display: inline-block;
+}
 .photo-block {
 	width:980px;
 }
-
-.gallery-image {
-    display: inline-block;
-    height: 150px;
+.exhibit-images {
+	width: 60%;
+    margin: auto;
+    text-align: center;
 }
 
 .page-collection {
@@ -95,7 +103,6 @@ a {
 .page-divider {
 	border-bottom: rgb(151, 184, 119);
 }
-
 
 .fa-facebook-square:before {
 	content: "\f082";
@@ -110,19 +117,6 @@ a {
 .fa-instagram:before {
 	content: "\f16d";
 	color: #59584D;
-}
-
-.exhibit-image {
-    width: 45%;
-    padding: 2.5%;
-    display: inline-block;
-
-}
-
-.exhibit-images {
-	width: 60%;
-    margin: auto;
-    text-align: center;
 }
 
 .block-content-container {
