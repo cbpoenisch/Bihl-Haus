@@ -86,15 +86,16 @@ a {
 
 .gallery-image-container {
 	display: inline-block;
-}
-.photo-block {
 	width:980px;
 }
-.exhibit-images {
+
+.exhibit-images-container {
 	width: 60%;
     margin: auto;
     text-align: center;
+    width:980px;
 }
+
 
 .page-collection {
 	padding: 5px;
