@@ -1,5 +1,4 @@
-<script type="text/javascript">
-    (function() {
+(function() {
         "use strict";
         
         var mapOptions = {
@@ -20,6 +19,3 @@
 	    	map: map
 		});
 	})();
-
-    
-    </script>

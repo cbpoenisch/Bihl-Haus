@@ -177,7 +177,8 @@ fieldset {
 
 .block-content  {
 	padding: 10px;
-	line-height: 2em;
+    line-height: 2rem;
+    font-size: 1.25rem;
 	text-align: left;
 	width: 90%;
     margin: 0 auto;
@@ -257,6 +258,8 @@ footer:after,
 	width: 400px;
 	height: 400px;
 	margin: auto;
+	box-shadow: 5px 5px 13px #888888;
+
 }
 
 #map-container {
