@@ -126,6 +126,10 @@ fieldset {
 
 }
 #exhibit-image {
+	width: 40%;
+	height: 90%;
+}
+#exhibit-page {
 
 }
 #gallery-image-photo-block {
@@ -133,6 +137,10 @@ fieldset {
     margin: auto;
     text-align: center;
     display: inline-block;
+}
+#exhibit-description {
+	display: inline-block;
+	text-align: left;
 }
 
 /*Image Container Style*/
@@ -265,6 +273,11 @@ footer:after,
 #map-container {
 	padding: 20px;
 	margin: auto;
+}
+
+#exhibit-page-image-container {
+	text-align: left;
+	margin: 10%;
 }
 
 a:active {
